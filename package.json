@@ -1,0 +1,26 @@
+{
+  "name": "tank-hue-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor tank-hue-prototype.js"
+  },
+  "author": "Beau Gunderson <beau@beaugunderson.com> (https://beaugunderson.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "browserify-middleware": "^7.0.0",
+    "cat-names": "^1.0.2",
+    "express": "^4.13.4",
+    "express-babelify-middleware": "^0.1.0",
+    "jquery": "^2.2.0",
+    "lodash": "^4.1.0",
+    "mousetrap": "^1.5.3",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "supervisor": "^0.9.1"
+  }
+}
